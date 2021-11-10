@@ -1,0 +1,46 @@
+@media screen and (min-width: 0) {
+    .cabecalho {
+        background-color: var(--preto);
+    }
+    
+    .cabecalho__titulo {
+        font-size: 23px;
+        font-family: var(--staatliches);
+        color: var(--branco);
+        max-width: 321px;
+        text-align: center;
+        margin: auto;
+        line-height: 26px;
+    }
+
+    .cabecalho__imagem {
+        background-image: url(../../img/cabecalho/ilustracao.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 346px;
+        height: 224px;
+
+    }
+
+    .cabecalho__subtitulo {
+        font-size: 14px;
+        font-family: var(--staatliches);
+        color: var(--branco);
+        line-height: 15px;
+        text-align: center;
+        max-width: 316px;
+        margin: auto;
+        padding: 20px 0;
+    }
+
+    .cabecalho__paragrafo {
+        font-size: 12px;
+        font-family: var(--nunito);
+        color: var(--branco);
+        line-height: 13px;
+        text-align: center;
+        margin: auto;
+        max-width: 336px;
+    }
+}

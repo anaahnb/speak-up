@@ -1,0 +1,57 @@
+@media screen and (min-width: 0) {
+
+    .cabecalho__menu {
+        padding: 68px 0;
+
+    }
+
+    .cabecalho__navegacao-botoes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .cabecalho__botao-nav {
+        font-family: var(--staatliches);
+        font-size: 13px;
+        color: var(--branco);
+        padding: 12px 12px;
+    }
+
+    .cabecalho__botoes {
+        text-align: center;
+    }
+
+    .cabecalho__botao-nav--denuncia {
+        font-family: var(--staatliches);
+        font-size: 13px;
+        color: var(--branco);
+        border: 2px var(--roxo) solid;
+        border-radius: 17px;
+        display: inline-block;
+        width: 111px;
+        height: 21px;
+        padding-top: 3px;
+        transition: 0.5s ease-out all;
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho__navegacao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cabecalho__botao-nav {
+        font-size: 22px;
+    }
+
+    .cabecalho__botao-nav--denuncia {
+        width: 167px;
+        height: 32px;
+        font-size: 22px;
+        transition: 0.5s ease-out all;
+    }
+}
