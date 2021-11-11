@@ -1,0 +1,52 @@
+
+@media screen and (min-width: 0) {
+    .dados__conteudo__imagem{
+        width: 100%;
+        margin: 1rem 0 1rem 0;
+        padding: 0 2rem 0 2rem;
+        object-fit: contain;
+    }
+    .dados__conteudo__info{
+        align-items: center;
+        color: #999999;
+        font-family: Staatliches;
+        font-style: normal;
+        font-size: 16px;
+        font-weight: normal;
+        letter-spacing: -0.015em;
+        line-height: 113%;
+        margin: 1rem 0 1rem 0;
+        text-align: justify;
+        text-transform: uppercase;
+    }
+}
+@media screen and (min-width: 768px) {
+    .dados__conteudo__imagem{
+        padding: 1rem 8rem 1rem 8rem;
+        margin: 3rem 0 3rem 0;
+    }
+    .dados__conteudo__info{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .dados__conteudo1, .dados__conteudo2, .dados__conteudo3, .dados__conteudo4{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow:hidden;
+    }
+    .dados__conteudo__imagem{
+        width: 50%;
+        padding: 1rem 1rem 1rem 1rem;
+        margin: 3rem 0 3rem 0;
+    }
+    .dados__conteudo2, .dados__conteudo4{
+        flex-direction: row-reverse;
+    }
+    .dados__conteudo__info{
+        padding: 1rem 1rem 1rem 1rem;
+        width: 50%;
+        font-size: 20px;
+    }
+}

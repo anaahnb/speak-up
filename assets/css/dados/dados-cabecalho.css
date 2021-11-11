@@ -1,0 +1,45 @@
+
+@media screen and (min-width: 0) {
+    .dados__cabecalho{
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+    .dados__cabecalho__titulo{
+        color: #D8D8D8;
+        font-family: Staatliches;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: normal;
+        letter-spacing: 0.015em;
+        line-height: 113%;
+        margin-bottom: 2rem;
+        text-decoration: underline;
+        text-align: center;
+    }
+    .dados__cabecalho__info{
+        align-items: center;
+        color: #999999;
+        font-family: Staatliches;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: normal;
+        letter-spacing: -0.02em;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) {
+    .dados__cabecalho__info{
+        font-size: 18px;
+    }
+    .dados__cabecalho__titulo{
+        font-size: 28px;
+    }   
+}
+@media screen and (min-width: 1024px) {
+    .dados__cabecalho__titulo{
+        font-size: 30px;
+    }
+    .dados__cabecalho__info{
+        font-size: 20px;
+    }   
+}
