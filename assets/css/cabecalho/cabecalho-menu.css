@@ -2,7 +2,6 @@
 
     .cabecalho__menu {
         padding: 68px 0;
-
     }
 
     .cabecalho__navegacao-botoes {
@@ -12,11 +11,37 @@
     }
 
     .cabecalho__botao-nav {
+        text-decoration: none;
+        color: inherit;
+
+        position: relative;
         font-family: var(--staatliches);
         font-size: 13px;
         color: var(--branco);
-        padding: 12px 12px;
+        text-decoration: none;
+        padding: 0 25px;
+        letter-spacing: 0.5px;
     }
+
+    .cabecalho__botao-nav:hover {
+        color: var(--roxo);
+        transition: 0.8s;
+    }
+
+    /* .cabecalho__botao-nav:after {
+        content: "";
+        height: 1.5px;
+        width: 0;
+        background-color: var(--roxo);
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        transition: 0.3s;
+    }
+
+    .cabecalho__botao-nav:hover:after {
+        width: 100%;
+    } */
 
     .cabecalho__botoes {
         text-align: center;
@@ -32,15 +57,20 @@
         width: 111px;
         height: 21px;
         padding-top: 3px;
+        margin: 12px 0;
         transition: 0.5s ease-out all;
 
+    }
+
+    .cabecalho__botao-nav--denuncia:hover{
+        transform: scale(1.1);
     }
 }
 
 @media screen and (min-width: 768px) {
     .cabecalho__navegacao {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
     }
 
@@ -52,6 +82,13 @@
         width: 167px;
         height: 32px;
         font-size: 22px;
-        transition: 0.5s ease-out all;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .cabecalho__navegacao {
+        justify-content: right;
+        padding-right: 76px;
     }
 }
