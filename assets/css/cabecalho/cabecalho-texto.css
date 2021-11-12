@@ -46,6 +46,10 @@
 }
 
 @media screen and (min-width: 768px) {
+
+    .cabecalho__container {
+        padding-top: 20%;
+    }
     
     .cabecalho__titulo {
         font-size: 35px;
@@ -60,19 +64,23 @@
 
     .cabecalho__subtitulo {
         font-size: 24px;
-        max-width: 573px;
-        line-height: 27px;
+        max-width: 550px;
+        line-height: 35px;
     }
 
     .cabecalho__paragrafo {
         font-size: 18px;
         line-height: 20px;
-        max-width: 560px;
+        max-width: 700px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     
+    .cabecalho__container {
+        padding-top: 10%;
+    }
+
     .cabecalho__container {
         display: flex;
         align-items: center;
@@ -103,6 +111,6 @@
     .cabecalho__paragrafo {
         font-size: 20px;
         line-height: 22px;
-        max-width: 1000px;
+        max-width: 1128px;
     }
 }
