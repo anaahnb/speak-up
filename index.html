@@ -10,18 +10,23 @@
     <!-- Título -->
     <title> Website Social - Violência Sexual </title>
 
+    <!-- Icone -->
+    <link rel="shortcut icon" href="assets/img/icone/favicon.ico" type="image/x-icon">
+
     <!-- Folhas de estilo -->
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/variaveis.css">
-    <link rel="stylesheet" href="assets/css/dados/dados.css">
-    <link rel="stylesheet" href="assets/css/dados/dados-cabecalho.css">
-    <link rel="stylesheet" href="assets/css/dados/dados-conteudo.css">
-
+    
     <!-- CSS da seção inicial -->
     <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-menu.css">
     <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-texto.css">
     <link rel="stylesheet" href="assets/css/informativo/informativo-grafico.css">
+
+    <!-- CSS da seção dados -->
+    <link rel="stylesheet" href="assets/css/dados/dados.css">
+    <link rel="stylesheet" href="assets/css/dados/dados-cabecalho.css">
+    <link rel="stylesheet" href="assets/css/dados/dados-conteudo.css">
 
     <!-- seções finais + rodape -->
     <link rel="stylesheet" href="assets/css/comodenunciar.css">
@@ -35,7 +40,6 @@
 <body>
 
     <!-- Seção 1 | Início -->
-
     <section class="cabecalho">
 
         <header class="cabecalho__menu">
@@ -52,7 +56,7 @@
             </nav>
         </header>
 
-        <div class="cabecalho__container">
+        <div id="#inicio" class="cabecalho__container">
             <h1 class="cabecalho__titulo">o aumento no número de casos registrados de <span style="color: var(--roxo);">estupro</span> e a escassez de denúncias no Maranhão.</h1>
             <div class="cabecalho__imagem"></div>
         </div>
@@ -61,20 +65,20 @@
         <p class="cabecalho__paragrafo">Então, <mark style="color: var(--branco); background-color: var(--roxo);">PARE</mark> e <mark style="color: var(--branco); background-color: var(--roxo);">LEIA</mark> com atenção. Para além desse tipo caso, há <mark style="color: var(--branco); background-color: var(--roxo);">diferentes situações</mark>            que podem ser enquadradas como estupro segundo o Código Penal brasileiro. </p>
     </section>
 
-    <section class="informativo">
+
+     <!-- Seção 2 | O que é o estupro? -->
+    <section id="conceito"  class="informativo">
         <div class="flexbox">
             <h2 class="informativo__grafico-titulo">NO BRASL, É REGISTRADO UM ESTUPRO A CADA 8 MINUTOS</h2>
             <figure class="informativo__grafico">
 
             </figure>
             <p class="informativo__paragrafo">O artigo 213 caracteriza o estupro como "constranger alguém, mediante violência ou grave ameaça, a ter conjunção carnal ou a praticar ou permitir que com ele se pratique outro ato libidinoso"</p>
-
         </div>
-
     </section>
 
     <!-- Seção 3 | Dados Estatísticos -->
-    <section class="dados">
+    <section id="registros" class="dados">
         <div class="dados__cabecalho">
             <h2 class="dados__cabecalho__titulo">REGISTRO DE CASOS DE ESTUPRO NO ESTADO DO MARANHÃO</h2>
             <p class="dados__cabecalho__info">Ao analisar os registros das violências sexuais notificados pela secretaria de segurança pública do maranhão- ssp/ma, destaca-se o aumento de casos notificados durante os dez anos estudados.</p>
@@ -96,8 +100,10 @@
             <p class="dados__conteudo__info">Os municípios mais pobres são consequentemente os que possuem acesso limitado a educação, informação, saúde e segurança, ao passo que os municípios com IDH alto,que é o caso de São Luís, Imperatriz, São José de Ribamar e Paço do Lumiar, possuem mais acesso à educação, informação, saúde e segurança, o que agrega positivamente as denúncias.</p>
         </div>
     </section>
+
+     <!-- Seção 4 | Como denunciar -->
     <section id="comodenunciar" class="sevcviu container__">
-        <h2 class="titulo__sevcviu">Se você viu,</br> é a sua conta</h2>
+        <h2 class="titulo__sevcviu">Se você viu,</br> é da sua conta</h2>
         <img class="img__sevcviu" src="./assets/img/comodenunciar/imgsevcviu.JPG">
     </section>
     <section class="oquefazer container__">
@@ -122,6 +128,8 @@
                 <p class="sub_paragrafo">MAS, CASO ISSO ACONTEÇA, REGISTRE UMA RECLAMAÇÃO NA OUVIDORIA DO ÓRGÃO EM QUE OCORREU A RECUSA.</p>
         </ul>
     </section>
+
+     <!-- Rodapé -->
     <footer class="rodape"> 
         <div class="imgs_rodape container__">
             <img class="img_rodape img_TrilhasInova" src="./assets/img/rodape/TrilhasInova.png" alt="Trilhas Inova">

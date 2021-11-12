@@ -1,5 +1,9 @@
 @media screen and (min-width: 0) {
 
+    html {
+        scroll-behavior: smooth;
+    }
+
     .cabecalho__menu {
         padding: 68px 0;
     }
@@ -69,6 +73,18 @@
 }
 
 @media screen and (min-width: 768px) {
+    /* .cabecalho__menu {
+        padding: 0;
+    }
+
+
+    nav {
+        background-color: var(--preto);
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+    } */
+
     .cabecalho__navegacao {
         display: flex;
         justify-content: space-around;
