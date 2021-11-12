@@ -7,17 +7,14 @@
         background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
         transform: matrix(1, 0, 0, -1, 0, 0);
     }
-
     .sevcviu {
         padding-top: 2rem;
     }
-
-    .sevcviu , .oquefazer {
+    .sevcviu,
+    .oquefazer {
         text-align: center;
     }
-
     .titulo__sevcviu {
-
         font-family: Staatliches;
         font-style: normal;
         font-weight: normal;
@@ -26,24 +23,19 @@
         text-align: center;
         letter-spacing: 0.025em;
         padding: 35px 0;
-
         color: #505050;
     }
-
     .img__sevcviu {
         width: 273.26px;
         height: 200.22px;
     }
-
     .container__ {
         margin: 0 auto;
         width: 315px;
     }
-
     .destaque__ {
         display: inline-block;
     }
-
     .titulo__oquefazer {
         font-family: Staatliches;
         font-style: normal;
@@ -53,44 +45,34 @@
         margin-top: 40%;
         padding: 18px 0;
         /* or 23px */
-
         text-align: center;
         letter-spacing: 0.015em;
-
         color: #D8D8D8;
     }
-
-    .div__topico { 
+    .div__topico {
         display: flex;
     }
-
     .nume__oquefazer {
         -webkit-text-stroke-width: 3px;
         -webkit-text-stroke-color: #3b0042;
-
         font-size: 35px;
         color: #000000;
         font-family: Oswald;
     }
-
     .topicos__oquefazer {
         list-style-type: none;
     }
-
     .topico {
         font-family: Nunito;
         font-style: normal;
         font-weight: 800;
         font-size: 13px;
         line-height: 113%;
-
         padding: 5px 10px;
-        
         text-align: justify;
         letter-spacing: -0.06em;
         color: #D8D8D8;
     }
-
     .sub_paragrafo {
         font-family: Staatliches;
         font-style: normal;
@@ -102,8 +84,6 @@
         color: #505050;
         text-align: justify;
     }
-
-
     .rodape {
         background-color: #161616;
         min-height: 180px;
@@ -114,24 +94,19 @@
         display: flex;
         justify-content: space-evenly;
     }
-
     .img_rodape {
         height: 60px;
         margin: 18px 0;
     }
-
     .img_TrilhasInova {
         width: 50px;
     }
-
-    .img_Governo{
+    .img_Governo {
         width: 147px;
     }
-
-    .img_InovaMaranhao{
+    .img_InovaMaranhao {
         width: 80px;
     }
-
     .paragrafo__rodape {
         font-family: Staatliches;
         font-style: normal;
@@ -142,6 +117,13 @@
         color: #505050;
         text-align: center;
     }
+    .linkedin__rodape {
+        text-decoration: none;
+        color: #505050;
+    }
+    .linkedin__rodape:hover {
+        color: var(--roxo);
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -149,31 +131,26 @@
         margin: 0 auto;
         width: 600px;
     }
-
     .sevcviu {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
     }
-
     .titulo__sevcviu {
         padding-top: 105px;
         font-size: 38px;
         line-height: 47px;
         letter-spacing: 0.025em;
     }
-
     .img__sevcviu {
         width: 363.01px;
         height: 265.98px;
     }
-
     .titulo__oquefazer {
-        margin-top: 7rem;            
+        margin-top: 7rem;
         font-size: 35.0318px;
         line-height: 113%;
     }
-
     .topico {
         padding: 30px 0 0 15px;
         font-weight: 800;
@@ -182,7 +159,6 @@
         text-align: justify;
         letter-spacing: -0.06em;
     }
-
     .sub_paragrafo {
         font-style: normal;
         font-weight: normal;
@@ -191,20 +167,17 @@
         text-align: justify;
         padding-bottom: 0px;
     }
-
-    .nume__oquefazer {          
+    .nume__oquefazer {
         padding: 18px 0 0 5px;
         font-style: normal;
         font-weight: bold;
         font-size: 54.1611px;
         line-height: 113%;
-        letter-spacing: 0.015em; 
+        letter-spacing: 0.015em;
     }
-
-        .rodape {
+    .rodape {
         min-height: 206px;
     }
-
     .paragrafo__rodape {
         font-style: normal;
         font-weight: normal;
@@ -212,7 +185,6 @@
         line-height: 113%;
         margin-bottom: 50px;
     }
-
     .imgs_rodape {
         display: flex;
         justify-content: space-evenly;
@@ -225,30 +197,28 @@
         width: 68.88px;
         height: 82px;
     }
-    .img_Governo{
+    .img_Governo {
         width: 196.8px;
         height: 72.16px;
     }
-    .img_InovaMaranhao{
+    .img_InovaMaranhao {
         width: 90.75px;
         height: 66.69px;
     }
 }
+
 @media screen and (min-width: 1024px) {
-    .container__ {    
+    .container__ {
         margin: 0 auto;
         width: 1024px;
     }
-
     .destaque__ {
         background-color: #3b0042;
     }
-
     .topico {
         padding: 38px 0 0 15px;
         font-size: 22px;
     }
-    
     .sub_paragrafo {
         padding: 0 50px;
         font-size: 18px;
@@ -275,11 +245,11 @@
         width: 63px;
         height: 75px;
     }
-    .img_Governo{
+    .img_Governo {
         width: 180px;
         height: 66px;
     }
-    .img_InovaMaranhao{
+    .img_InovaMaranhao {
         width: 83px;
         height: 61px;
     }
@@ -287,5 +257,4 @@
         font-size: 17px;
         margin-bottom: 0;
     }
-
 }
