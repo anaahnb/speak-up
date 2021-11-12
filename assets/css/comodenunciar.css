@@ -79,7 +79,7 @@
         font-weight: normal;
         font-size: 13px;
         line-height: 113%;
-        padding-bottom: 5px;
+        padding: 0 0 5px 10px ;
         /* or 11px */
         color: #505050;
         text-align: justify;
@@ -165,7 +165,7 @@
         font-size: 17.5159px;
         line-height: 113%;
         text-align: justify;
-        padding-bottom: 0px;
+        padding: 0 16px;
     }
     .nume__oquefazer {
         padding: 18px 0 0 5px;
@@ -220,7 +220,6 @@
         font-size: 22px;
     }
     .sub_paragrafo {
-        padding: 0 50px;
         font-size: 18px;
     }
     .nume__oquefazer {

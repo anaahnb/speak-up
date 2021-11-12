@@ -32,21 +32,6 @@
         transition: 0.8s;
     }
 
-    /* .cabecalho__botao-nav:after {
-        content: "";
-        height: 1.5px;
-        width: 0;
-        background-color: var(--roxo);
-        position: absolute;
-        left: 0;
-        bottom: -5px;
-        transition: 0.3s;
-    }
-
-    .cabecalho__botao-nav:hover:after {
-        width: 100%;
-    } */
-
     .cabecalho__botoes {
         text-align: center;
     }
@@ -73,17 +58,6 @@
 }
 
 @media screen and (min-width: 768px) {
-    /* .cabecalho__menu {
-        padding: 0;
-    }
-
-
-    nav {
-        background-color: var(--preto);
-        overflow: hidden;
-        position: fixed;
-        width: 100%;
-    } */
 
     .cabecalho__navegacao {
         display: flex;
