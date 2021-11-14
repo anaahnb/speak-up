@@ -1,5 +1,5 @@
-# Website Social - Violência Sexual
+# Alerta sobre a violência sexual
 
-- No <a href="https://www.inova.ma.gov.br/trilhas" target="_blank">Programa Trilhas (Inova Maranhão)</a> recebemos o desafio de desenvolver uma landing page com o objetivo de propor soluções para problemas do Maranhão.
+#### 🚨  Para saber mais sobre o projeto acesse [nossa página](https://alerta-sobre-violencia-sexual.vercel.app/)
 
-- Escolhemos abordar a temática "O aumento no número de casos registrados de estupro e a escassez de denúncias"
+- No  [Programa Trilhas](https://www.inova.ma.gov.br/trilhas) (Inova Maranhão) recebemos o desafio de desenvolver uma landing page com o objetivo de propor soluções para problemas do Maranhão.  Então, escolhemos abordar a temática "O aumento no número de casos registrados de estupro e a escassez de denúncias".
