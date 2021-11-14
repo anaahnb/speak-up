@@ -14,6 +14,11 @@
     .oquefazer {
         text-align: center;
     }
+
+    .oquefazer {
+        padding-bottom: 10%;
+    }
+
     .titulo__sevcviu {
         font-family: Staatliches;
         font-style: normal;
@@ -76,53 +81,11 @@
     .sub_paragrafo {
         font-family: Staatliches;
         font-style: normal;
-        font-weight: normal;
         font-size: 13px;
         line-height: 113%;
         padding: 0 0 5px 10px ;
-        /* or 11px */
         color: #505050;
         text-align: justify;
-    }
-    .rodape {
-        background-color: #161616;
-        min-height: 180px;
-        margin-top: 15%;
-        width: 100%;
-    }
-    .imgs_rodape {
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .img_rodape {
-        height: 60px;
-        margin: 18px 0;
-    }
-    .img_TrilhasInova {
-        width: 50px;
-    }
-    .img_Governo {
-        width: 147px;
-    }
-    .img_InovaMaranhao {
-        width: 80px;
-    }
-    .paragrafo__rodape {
-        font-family: Staatliches;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
-        line-height: 113%;
-        /* or 14px */
-        color: #505050;
-        text-align: center;
-    }
-    .linkedin__rodape {
-        text-decoration: none;
-        color: #505050;
-    }
-    .linkedin__rodape:hover {
-        color: var(--roxo);
     }
 }
 
@@ -175,36 +138,6 @@
         line-height: 113%;
         letter-spacing: 0.015em;
     }
-    .rodape {
-        min-height: 206px;
-    }
-    .paragrafo__rodape {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 113%;
-        margin-bottom: 50px;
-    }
-    .imgs_rodape {
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .img_rodape {
-        height: 60px;
-        margin: 18px 0;
-    }
-    .img_TrilhasInova {
-        width: 68.88px;
-        height: 82px;
-    }
-    .img_Governo {
-        width: 196.8px;
-        height: 72.16px;
-    }
-    .img_InovaMaranhao {
-        width: 90.75px;
-        height: 66.69px;
-    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -228,32 +161,5 @@
     .topicos__oquefazer {
         margin: 0 auto;
         width: 948px;
-    }
-    .rodape {
-        min-height: 178px;
-        margin-top: 5rem;
-    }
-    .imgs_rodape {
-        justify-content: center;
-    }
-    .img_rodape {
-        height: 60px;
-        margin: 18px 0;
-    }
-    .img_TrilhasInova {
-        width: 63px;
-        height: 75px;
-    }
-    .img_Governo {
-        width: 180px;
-        height: 66px;
-    }
-    .img_InovaMaranhao {
-        width: 83px;
-        height: 61px;
-    }
-    .paragrafo__rodape {
-        font-size: 17px;
-        margin-bottom: 0;
     }
 }

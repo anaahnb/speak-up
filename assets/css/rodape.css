@@ -1,0 +1,123 @@
+@media screen and (min-width: 0px) {
+    footer {
+        background-color: #161616;
+        padding: 72px 24px 52px 24px;
+    }
+    
+    .rodape__titulo {
+        font-size: 14px;
+        font-family: var(--nunito);
+        color: var(--branco);
+        margin: auto;
+        text-align: center;
+        line-height: 1.2;
+        margin-bottom: 20px;
+        max-width: 230px;
+    }
+
+    .rodape__trilha {
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 10px;
+    }
+
+    .rodape__simbolo-dados {
+        background-image: url(../../assets/img/rodape/dados.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .rodape__simbolo-design {
+        background-image: url(../../assets/img/rodape/design.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .rodape__simbolo-prog {
+        background-image: url(../../assets/img/rodape/programacao.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .rodape__simbolo-dados,
+    .rodape__simbolo-design,
+    .rodape__simbolo-prog {
+        height: 18px;
+        width: 18px;
+        margin-right: 10px;
+    }
+
+    .rodape__paragrafo {
+        color: var(--branco);
+        font-size: 14px;
+        font-weight: 800;
+        font-family: var(--nunito);
+    }
+
+    .rodape__linkedin {
+        text-decoration: none;
+        color: var(--branco);
+        font-family: var(--nunito);
+        font-size: 14px;
+        margin: 3px 0;
+    }
+
+    .rodape__linkedin:hover {
+        color: var(--roxo);
+        transition: 0.8s;
+    }
+
+    .rodape__container {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-start;
+        justify-content: center;
+        max-width: 150px;
+        margin: 20px auto;
+    }   
+}
+
+@media screen and (min-width: 768px) {
+    .rodape__titulo {
+        font-size: 16px;
+        max-width: 500px;
+    }
+
+    .rodape__container {
+        text-align: left;
+        max-width: 232px;
+        margin: 16px auto;
+    }
+
+    .rodape__times {
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape__titulo {
+        font-size: 20px;
+        max-width: 800px;
+    }
+
+    .rodape__simbolo-dados,
+    .rodape__simbolo-design,
+    .rodape__simbolo-prog {
+        height: 24px;
+        width: 24px;
+    }
+
+    .rodape__paragrafo {
+        font-size: 20px;
+    }
+
+    .rodape__linkedin {
+        font-size: 16px;
+    }
+
+
+}
